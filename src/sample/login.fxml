@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="166.0" prefWidth="509.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button layoutX="113.0" layoutY="110.0" mnemonicParsing="false" onAction="#sesion" prefHeight="25.0" prefWidth="149.0" text="Verificar" />
+      <Label layoutX="32.0" layoutY="40.0" text="Usuario" />
+      <Label layoutX="32.0" layoutY="79.0" text="Contraseña" />
+      <TextField fx:id="user" layoutX="113.0" layoutY="36.0" />
+      <PasswordField fx:id="password" layoutX="113.0" layoutY="75.0" />
+      <ImageView fitHeight="150.0" fitWidth="217.0" layoutX="278.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Pictures/proyecto/bandera1.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
